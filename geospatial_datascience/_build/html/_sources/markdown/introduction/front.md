@@ -13,7 +13,7 @@ DSC-80 (Practice of Data Science).
 More generally, we will assume that you know how to program in Python and use packages such as Pandas, Matplotlib and Numpy. Familiarity with “non-spatial” data science approaches and tools would be a big plus. 
 
 <h3> Textbook and Resources </h3>
-This is the official course Textbook! We shall set up accounts on UC San Diego's <a href = 'https://datahub.ucsd.edu/hub/' target = '_blank'> Jupyterhub </a> to help students develop code for Programming Assignments for those who are officially enrolled in the course. To install resources on a local machine please refer to the instructions on the <a href = '' target = '_blank'> Resources </a> section.   
+This is the official course Textbook! We shall set up accounts on UC San Diego's <a href = 'https://datahub.ucsd.edu/hub/' target = '_blank'> Jupyterhub </a> to help students develop code for Programming Assignments for those who are officially enrolled in the course. To install resources on a local machine please refer to the instructions on the <a href = '../resources/localinstallation.html' target = '_blank'> Resources </a> section.   
 
 
 <h3> License </h3>

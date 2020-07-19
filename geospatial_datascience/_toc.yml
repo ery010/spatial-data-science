@@ -1,3 +1,8 @@
-- file: front
+- file: markdown/introduction/front
 - header: What is Special about Spatial?
-- file: trail_widget
+- file: notebooks/trail_widget
+- header: Resources
+- file: markdown/resources/localinstallation
+
+
+
