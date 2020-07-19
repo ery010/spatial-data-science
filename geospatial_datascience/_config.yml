@@ -1,7 +1,16 @@
 # Book settings
-title: My sample book
-author: The Jupyter Book Community
-logo: logo.png
+title: Spatial Data Science 
+author: Ilya Zaslavsky, Kaushik Ganapathy and Eric Yu
+logo: hdsi.jpg
+copyright: "2020"
+repository:
+  url                       : https://github.com/ery010/spatial-data-science
+
+
+execute:
+  execute_notebooks         : auto  # Whether to execute notebooks at build time. Must be one of ("auto", "force", "cache", "off")
+  exclude_patterns          : ['mp*.ipynb', 'hw*.ipynb']  # A list of patterns to *skip* in execution (e.g. a notebook that takes a really long time)
+
 
 latex:
   latex_documents:

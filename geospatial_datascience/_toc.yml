@@ -1,5 +1,3 @@
-file: markdown
-sections:
-- file: content
-- file: intro
-- file: notebooks
+- file: front
+- header: What is Special about Spatial?
+- file: trail_widget
