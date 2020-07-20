@@ -1,7 +1,7 @@
 # Book settings
 title: Spatial Data Science 
 author: Ilya Zaslavsky, Kaushik Ganapathy and Eric Yu
-logo: images/hdsi.jpg
+logo: images/logonew.png
 copyright: "2020"
 repository:
   url                       : https://github.com/ery010/spatial-data-science
@@ -12,7 +12,7 @@ execute:
   exclude_patterns          : ['mp*.ipynb', 'hw*.ipynb']  # A list of patterns to *skip* in execution (e.g. a notebook that takes a really long time)
 
 html:
-  favicon: images/hdsi.jpg
+  favicon: images/logonew.png
   home_page_in_navbar: false
 
 latex:
