@@ -14,7 +14,7 @@ The abbreviation **C.R.A.P.** stands for *contrast*, *repetition*, *alignment*, 
 >**Alignment** refers to structuring elements into columns and ordering objects. This provides an easy-to-read profile.
 
 >**Proximity** refers the closeness of elements that are associated and/or related.
-<br>
+
 <h6><sup>[1]</sup>https://saylordotorg.github.io/text_business-information-systems-design-an-app-for-that/s07-01-c-r-a-p-principles-of-graphic-.html
 
 
@@ -50,7 +50,12 @@ These are a few points regarding rules of thumb for spatial data.<sup>[2]</sup> 
 * The resolution of raster data is considered equal to the square root of the cell area.
 * An heuristic is a rule of thumb, strategy, trick, simplification, or any other kind of device which drastically limits the search for solutions in large problem spaces.
 
-<br>
 <h6><sup>[2]</sup>http://ibis.geog.ubc.ca/~brian/rules_of_thumb/</h6>
+
+| Tables      |      Are      |  Cool         |               |
+|-------------|:-------------:|:-------------:|:-------------:|
+| col 1 is    |  left-aligned | $1600         |               |
+| col 2 is    |    centered   |   $12         |               |
+| col 3 is    | right-aligned |    $1         |               |
 
 
