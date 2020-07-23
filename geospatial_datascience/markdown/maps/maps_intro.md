@@ -17,6 +17,7 @@ The abbreviation **C.R.A.P.** stands for *contrast*, *repetition*, *alignment*, 
 
 <h6><sup>[1]</sup>https://saylordotorg.github.io/text_business-information-systems-design-an-app-for-that/s07-01-c-r-a-p-principles-of-graphic-.html
 
+<hr>
 
 <h2>Tuft's Principles of Graphical Excellence</h2>
 
@@ -28,11 +29,9 @@ The abbreviation **C.R.A.P.** stands for *contrast*, *repetition*, *alignment*, 
 6. Encourage the eye to compare. Show enough data to make your point, but not too much as to distract the reader.
 7. Stay integrated with statistical and verbal descriptions of a dataset.
 
+<hr>
+
 <h2>Basic Principles of Creating Effective Maps</h2>
-
-A geographic information system (GIS) is the best way to create ugly maps fast.
-
-Some scientific rules, but with artistic judgement: about colors, symbology, labels, layout, selection of data, projection, scale, etc.
 
 <h3>Rules of Thumb for Spatial Data</sup></h3>
 
@@ -51,11 +50,15 @@ These are a few points regarding rules of thumb for spatial data.<sup>[2]</sup> 
 * An heuristic is a rule of thumb, strategy, trick, simplification, or any other kind of device which drastically limits the search for solutions in large problem spaces.
 
 <h6><sup>[2]</sup>http://ibis.geog.ubc.ca/~brian/rules_of_thumb/</h6>
+<hr>
 
-| Tables      |      Are      |  Cool         |               |
-|-------------|:-------------:|:-------------:|:-------------:|
-| col 1 is    |  left-aligned | $1600         |               |
-| col 2 is    |    centered   |   $12         |               |
-| col 3 is    | right-aligned |    $1         |               |
+<h2>David Sinton’s Framework for Spatial Data Representation</h2>
 
-
+|        Example         |         Fixed          |       Controlled       |        Measured        |
+|------------------------|------------------------|------------------------|------------------------|
+|     Geological Map     |          Time          |          Theme         |        Location        |
+|      Census Data       |          Time          |        Location        |          Theme         |
+|     Weather Report     |        Location        |          Time          |          Theme         |
+|       Tide Table       |          Theme         |        Location        |          Time          |
+|    Flood Hydrograph    |        Location        |          Time          |          Theme         |
+|     Grid Cell Data     |          Time          |        Location        |          Theme         |
