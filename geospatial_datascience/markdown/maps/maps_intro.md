@@ -7,13 +7,13 @@
 
 The abbreviation **C.R.A.P.** stands for *contrast*, *repetition*, *alignment*, and *proximity*.<sup>[1]</sup>
 
-> **Constrast** refers to a state of things being different, for example, the colors red and green. This makes things stand out, which helps users know where to look first.
+* **Constrast** refers to a state of things being different, for example, the colors red and green. This makes things stand out, which helps users know where to look first.
 
->**Repetition** refers to consistent elements, for example repeat color choices and bulleted lists when items can be naturally listed. This provides a cohesive look.
+* **Repetition** refers to consistent elements, for example repeat color choices and bulleted lists when items can be naturally listed. This provides a cohesive look.
 
->**Alignment** refers to structuring elements into columns and ordering objects. This provides an easy-to-read profile.
+* **Alignment** refers to structuring elements into columns and ordering objects. This provides an easy-to-read profile.
 
->**Proximity** refers the closeness of elements that are associated and/or related.
+* **Proximity** refers the closeness of elements that are associated and/or related.
 
 <h6><sup>[1]</sup>https://saylordotorg.github.io/text_business-information-systems-design-an-app-for-that/s07-01-c-r-a-p-principles-of-graphic-.html
 
@@ -28,6 +28,28 @@ The abbreviation **C.R.A.P.** stands for *contrast*, *repetition*, *alignment*, 
 5. Make large datasets coherent.
 6. Encourage the eye to compare. Show enough data to make your point, but not too much as to distract the reader.
 7. Stay integrated with statistical and verbal descriptions of a dataset.
+
+<hr>
+
+<h2>Types of Maps</h2>
+
+These are examples of maps that you may often encounter. In the **Graphics Variables** section of this chapter, you will see how graphics are chosen and related for some of these maps.
+
+* **Choropleth maps** consists of varying shades or patterns to depict differences in proportions of a statistic. The shapes in a choropleth map are defined not by the data, but by conventional geographic boundaries (for example, state borders in the United States). Examples of the maps depict population density or income per-capita.
+    > **Important:** Choropleth maps should NOT represent raw numbers or absolute values. In a population density choropleth map, the values should be normalized proportions, not the magnitude (i.e. population count).
+
+![Choropleth Map Example](../geospatial_datascience/images/choropleth_example.PNG)
+
+<img src="../geospatial_datascience/images/choropleth_example.PNG" alt="Choropleth Map Example">
+
+* **Heat maps** 
+
+* **Line (network) maps**
+
+* **Point maps**
+
+* **3D and 2.5D maps**
+
 
 <hr>
 
