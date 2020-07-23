@@ -1,6 +1,8 @@
 - file: markdown/introduction/front
 - header: What is Special about Spatial?
 - file: notebooks/trail_widget
+- header: Maps
+- file: markdown/maps/maps_intro
 - header: Resources
 - file: markdown/resources/localinstallation
 

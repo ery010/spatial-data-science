@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta charset="utf-8" />
-    <title>Geospatial Data Science &#8212; Spatial Data Science</title>
+    <title>Maps and Cartography &#8212; Spatial Data Science</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
     <link href="../../_static/css/index.css" rel="stylesheet">
     <link rel="stylesheet" href="../../_static/sphinx-book-theme.css" type="text/css" />
@@ -31,6 +31,8 @@
     <link rel="shortcut icon" href="../../_static/blank.png"/>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Local Installation Guide" href="../resources/localinstallation.html" />
+    <link rel="prev" title="Widget Trial" href="../../notebooks/trail_widget.html" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="docsearch:language" content="en">
@@ -80,9 +82,9 @@
   Maps
  </span>
 </p>
-<ul class="nav sidenav_l1">
- <li class="toctree-l1">
-  <a class="reference internal" href="../maps/maps_intro.html">
+<ul class="current nav sidenav_l1">
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
    Maps and Cartography
   </a>
  </li>
@@ -136,7 +138,7 @@
         <!-- ipynb file if we had a myst markdown file -->
         
         <!-- Download raw file -->
-        <a class="dropdown-buttons" href="../../_sources/markdown/introduction/intro.md"><button type="button"
+        <a class="dropdown-buttons" href="../../_sources/markdown/maps/maps_intro.md"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
                 data-placement="left">.md</button></a>
         <!-- Download PDF via print -->
@@ -172,9 +174,112 @@
         
               <div>
                 
-  <div class="section" id="geospatial-data-science">
-<h1>Geospatial Data Science<a class="headerlink" href="#geospatial-data-science" title="Permalink to this headline">¶</a></h1>
-<p>Insert introduction and course description here!</p>
+  <div class="section" id="maps-and-cartography">
+<h1>Maps and Cartography<a class="headerlink" href="#maps-and-cartography" title="Permalink to this headline">¶</a></h1>
+<h3>This section covers conventions for map and cartographic design. Here, you will learn about design principles and choices for making what is considered a good map. Examples include ways to organize the elements of the map, structuring data, and color and shape choices for telling different stories with the data.</h3>
+<h2>Basic Principles of Graphic Design: The C.R.A.P. Principle</h2>
+<p>The abbreviation <strong>C.R.A.P.</strong> stands for <em>contrast</em>, <em>repetition</em>, <em>alignment</em>, and <em>proximity</em>.<sup>[1]</sup></p>
+<ul class="simple">
+<li><p><strong>Constrast</strong> refers to a state of things being different, for example, the colors red and green. This makes things stand out, which helps users know where to look first.</p></li>
+<li><p><strong>Repetition</strong> refers to consistent elements, for example repeat color choices and bulleted lists when items can be naturally listed. This provides a cohesive look.</p></li>
+<li><p><strong>Alignment</strong> refers to structuring elements into columns and ordering objects. This provides an easy-to-read profile.</p></li>
+<li><p><strong>Proximity</strong> refers the closeness of elements that are associated and/or related.</p></li>
+</ul>
+<h6><sup>[1]</sup>https://saylordotorg.github.io/text_business-information-systems-design-an-app-for-that/s07-01-c-r-a-p-principles-of-graphic-.html
+<hr>
+<h2>Tuft's Principles of Graphical Excellence</h2>
+<ol class="simple">
+<li><p>Show the data.</p></li>
+<li><p>Induce the reader to think about the substance, not the methodology, graphic design, or technology used.</p></li>
+<li><p>Avoid distorting what the data says. Graphic design choices are important to conveying the story you want, but can easily disrupt the true meaning if poor choices are made.</p></li>
+<li><p>Present many numbers in a small space.</p></li>
+<li><p>Make large datasets coherent.</p></li>
+<li><p>Encourage the eye to compare. Show enough data to make your point, but not too much as to distract the reader.</p></li>
+<li><p>Stay integrated with statistical and verbal descriptions of a dataset.</p></li>
+</ol>
+<hr>
+<h2>Types of Maps</h2>
+<p>These are examples of maps that you may often encounter. In the <strong>Graphics Variables</strong> section of this chapter, you will see how graphics are chosen and related for some of these maps.</p>
+<ul>
+<li><p><strong>Choropleth maps</strong> consists of varying shades or patterns to depict differences in proportions of a statistic. The shapes in a choropleth map are defined not by the data, but by conventional geographic boundaries (for example, state borders in the United States). Examples of the maps depict population density or income per-capita.</p>
+<blockquote>
+<div><p><strong>Important:</strong> Choropleth maps should NOT represent raw numbers or absolute values. In a population density choropleth map, the values should be normalized proportions, not the magnitude (i.e. population count).</p>
+</div></blockquote>
+</li>
+</ul>
+<p><img alt="Choropleth Map Example" src="markdown/maps/../geospatial_datascience/images/choropleth_example.PNG" /></p>
+<img src="../geospatial_datascience/images/choropleth_example.PNG" alt="Choropleth Map Example">
+<ul class="simple">
+<li><p><strong>Heat maps</strong></p></li>
+<li><p><strong>Line (network) maps</strong></p></li>
+<li><p><strong>Point maps</strong></p></li>
+<li><p><strong>3D and 2.5D maps</strong></p></li>
+</ul>
+<hr>
+<h2>Basic Principles of Creating Effective Maps</h2>
+<h3>Rules of Thumb for Spatial Data</sup></h3>
+<p>These are a few points regarding rules of thumb for spatial data.<sup>[2]</sup> The full list can be found <a class="reference external" href="http://ibis.geog.ubc.ca/~brian/rules_of_thumb/">here</a>.</p>
+<blockquote>
+<div><p><strong>Rules of thumb in cartography</strong></p>
+</div></blockquote>
+<ul class="simple">
+<li><p>Number of shades of gray distinguishable - 16 max</p></li>
+<li><p>Number of legend categories consistently recognized - 5, 7 max</p></li>
+<li><p>Symbol sizes should not vary when mapping qualitative data.</p></li>
+<li><p>Raw totals should not be mapped using a choropleth map.</p></li>
+</ul>
+<blockquote>
+<div><p><strong>Rules of thumb in GIS</strong></p>
+</div></blockquote>
+<ul class="simple">
+<li><p>To determine the approximate resolution of vector data, if the “scale” of the data is known – take the 1000’s units, divide by 2 to get the minimum mapping unit in meters (e.g., 1:20,000 - 20/2 - 10 m).</p></li>
+<li><p>The resolution of raster data is considered equal to the square root of the cell area.</p></li>
+<li><p>An heuristic is a rule of thumb, strategy, trick, simplification, or any other kind of device which drastically limits the search for solutions in large problem spaces.</p></li>
+</ul>
+<h6><sup>[2]</sup>http://ibis.geog.ubc.ca/~brian/rules_of_thumb/</h6>
+<hr>
+<h2>David Sinton’s Framework for Spatial Data Representation</h2>
+<table class="colwidths-auto table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Example</p></th>
+<th class="head"><p>Fixed</p></th>
+<th class="head"><p>Controlled</p></th>
+<th class="head"><p>Measured</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Geological Map</p></td>
+<td><p>Time</p></td>
+<td><p>Theme</p></td>
+<td><p>Location</p></td>
+</tr>
+<tr class="row-odd"><td><p>Census Data</p></td>
+<td><p>Time</p></td>
+<td><p>Location</p></td>
+<td><p>Theme</p></td>
+</tr>
+<tr class="row-even"><td><p>Weather Report</p></td>
+<td><p>Location</p></td>
+<td><p>Time</p></td>
+<td><p>Theme</p></td>
+</tr>
+<tr class="row-odd"><td><p>Tide Table</p></td>
+<td><p>Theme</p></td>
+<td><p>Location</p></td>
+<td><p>Time</p></td>
+</tr>
+<tr class="row-even"><td><p>Flood Hydrograph</p></td>
+<td><p>Location</p></td>
+<td><p>Time</p></td>
+<td><p>Theme</p></td>
+</tr>
+<tr class="row-odd"><td><p>Grid Cell Data</p></td>
+<td><p>Time</p></td>
+<td><p>Location</p></td>
+<td><p>Theme</p></td>
+</tr>
+</tbody>
+</table>
 </div>
 
 
@@ -186,6 +291,8 @@
     
     <div class='prev-next-bottom'>
         
+    <a class='left-prev' id="prev-link" href="../../notebooks/trail_widget.html" title="previous page">Widget Trial</a>
+    <a class='right-next' id="next-link" href="../resources/localinstallation.html" title="next page">Local Installation Guide</a>
 
     </div>
     <footer class="footer mt-5 mt-md-0">
