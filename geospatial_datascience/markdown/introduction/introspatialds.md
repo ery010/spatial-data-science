@@ -1,1 +1,3 @@
 # What is Spatial Data? 
+
+Spatial Data can be thought as data that has some dependance on space or location. In our world, there are a huge number of examples of spatial data. For instance, the position of every car on the surface of the earth, flying patterns of migratory birds, locations of ground water deposits and even the position of atoms in a large molecule can be considered as spatial data! As you may have noted, most of the examples of spatial data are those that have dependance on the geography of the earth *(geo-spatial) data*. However it is important to remember that **spatial data is not necessarily geographic.**  

@@ -1,6 +1,9 @@
 - file: markdown/introduction/front
 - header: What is Special about Spatial?
 - file: notebooks/trail_widget
+- header: Spatial Data
+- file:  markdown/introduction/introspatialds
+- file: notebooks/quiz_trial
 - header: Maps
 - file: markdown/maps/maps_intro
 - header: Resources
