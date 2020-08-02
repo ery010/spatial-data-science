@@ -1,0 +1,5 @@
+pandas==1.1.0
+arcgis==1.6.0
+matplotlib
+ipython
+ipywidgets
