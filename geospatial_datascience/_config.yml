@@ -20,6 +20,12 @@ launch_buttons:
   colab_url: "https://colab.research.google.com"
   thebe: true
 
+
 latex:
   latex_documents:
     targetname: book.tex
+
+repository:
+  url                       : https://github.com/ery010/spatial-data-science  # The URL to your book's repository
+  path_to_book              : "geospatial_datascience/notebooks/"  # A path to your book's folder, relative to the repository root.
+  branch                    : master  # Which branch of the repository should be used when creating links

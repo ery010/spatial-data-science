@@ -3,7 +3,7 @@
 - file: notebooks/trail_widget
 - header: Spatial Data
 - file:  markdown/introduction/introspatialds
-- file: notebooks/quiz_trial
+- file: markdown/quizzes/quiz01
 - header: Maps
 - file: markdown/maps/maps_intro
 - header: Resources
